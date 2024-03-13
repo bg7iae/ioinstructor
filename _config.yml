@@ -1,0 +1,23 @@
+# 网站基础配置
+title: Your Site Title
+email: your-email@example.com
+description: >- # 这意味着下一行是网站描述
+  This is a sample site description.
+baseurl: "" # 站点的基础 URL。如果你的站点位于子路径下，这里需要设置相应的值。
+url: "https://ioinstructor.pages.dev" # 网站的 URL
+
+# 构建设置
+markdown: kramdown
+theme: minima # 使用 GitHub Pages 默认主题
+plugins:
+  - jekyll-feed # 示例插件
+
+# 如果你使用 GitHub Pages，可能还会有这些设置
+# GitHub Pages 已经默认启用了一些插件和主题，如果你在 Cloudflare Pages 上需要相同的功能，可能需要在这里显式指定。
+
+# 排除文件
+# 你可以指定一些不应该包含在构建结果中的文件或目录
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
